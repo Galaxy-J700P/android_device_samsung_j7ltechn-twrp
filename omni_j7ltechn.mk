@@ -30,17 +30,12 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     charger
 
-PRODUCT_NAME := omni_j7ltespr
-PRODUCT_DEVICE := j7ltespr
+PRODUCT_NAME := omni_j7ltechn
+PRODUCT_DEVICE := j7ltechn
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := J700P
+PRODUCT_MODEL := J7008
 PRODUCT_MANUFACTURER := Samsung
 
 # dt
 PRODUCT_COPY_FILES += \
-    device/samsung/j7ltespr/dt.img:dt.img
-
-# Kernel inline build
-#TARGET_KERNEL_CONFIG := j7ltespr_defconfig
-#TARGET_VARIANT_CONFIG := j7ltespr_defconfig
-#TARGET_SELINUX_CONFIG := j7ltespr_defconfig
+    device/samsung/j7ltechn/dt.img:dt.img

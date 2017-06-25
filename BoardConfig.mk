@@ -1,5 +1,5 @@
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := j7ltespr,SM-J700P,J700P
+TARGET_OTA_ASSERT_DEVICE := j7ltechn,SM-J7008,J7008
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8916
@@ -21,10 +21,10 @@ TARGET_CPU_VARIANT := cortex-a53
 TARGET_CPU_CORTEX_A53 := true
 
 # custom mkbootimg
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/j7ltespr/mkbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/j7ltechn/mkbootimg.mk
 
 # DTB
-TARGET_PREBUILT_DTB := device/samsung/j7ltespr/dt.img
+TARGET_PREBUILT_DTB := device/samsung/j7ltechn/dt.img
 
 # Kernel
 TARGET_KERNEL_ARCH := arm
@@ -44,10 +44,10 @@ BOARD_KERNEL_SEPARATED_DT          := true
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN                   := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin
 TARGET_KERNEL_SOURCE               := kernel/samsung/j7lte
-TARGET_KERNEL_CONFIG               := lineageos_j7ltespr_defconfig
+TARGET_KERNEL_CONFIG               := lineageos_j7ltechn_defconfig
 
 # fstab
-TARGET_RECOVERY_FSTAB := device/samsung/j7ltespr/twrp/twrp.fstab
+TARGET_RECOVERY_FSTAB := device/samsung/j7ltechn/twrp/twrp.fstab
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 BOARD_HAS_NO_SELECT_BUTTON := true
